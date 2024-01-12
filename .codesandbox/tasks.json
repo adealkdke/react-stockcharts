@@ -1,0 +1,123 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "npm install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "clean": {
+      "name": "clean",
+      "command": "npm run clean",
+      "runAtStart": false
+    },
+    "modernizr": {
+      "name": "modernizr",
+      "command": "npm run modernizr",
+      "runAtStart": false
+    },
+    "watch": {
+      "name": "watch",
+      "command": "npm run watch",
+      "runAtStart": false
+    },
+    "docs": {
+      "name": "docs",
+      "command": "npm run docs",
+      "runAtStart": false
+    },
+    "build:docs": {
+      "name": "build:docs",
+      "command": "npm run build:docs",
+      "runAtStart": false
+    },
+    "prebuild": {
+      "name": "prebuild",
+      "command": "npm run prebuild",
+      "runAtStart": false
+    },
+    "build": {
+      "name": "build",
+      "command": "npm run build",
+      "runAtStart": false
+    },
+    "babel:cjs:watch": {
+      "name": "babel:cjs:watch",
+      "command": "npm run babel:cjs:watch",
+      "runAtStart": false
+    },
+    "babel:es:watch": {
+      "name": "babel:es:watch",
+      "command": "npm run babel:es:watch",
+      "runAtStart": false
+    },
+    "babel:cjs": {
+      "name": "babel:cjs",
+      "command": "npm run babel:cjs",
+      "runAtStart": false
+    },
+    "babel:es": {
+      "name": "babel:es",
+      "command": "npm run babel:es",
+      "runAtStart": false
+    },
+    "release": {
+      "name": "release",
+      "command": "npm run release",
+      "runAtStart": false
+    },
+    "lint": {
+      "name": "lint",
+      "command": "npm run lint",
+      "runAtStart": false
+    },
+    "upgrade:patch": {
+      "name": "upgrade:patch",
+      "command": "npm run upgrade:patch",
+      "runAtStart": false
+    },
+    "preversion": {
+      "name": "preversion",
+      "command": "npm run preversion",
+      "runAtStart": false
+    },
+    "version": {
+      "name": "version",
+      "command": "npm run version",
+      "runAtStart": false
+    },
+    "postversion": {
+      "name": "postversion",
+      "command": "npm run postversion",
+      "runAtStart": false
+    },
+    "npm:publish:next": {
+      "name": "npm:publish:next",
+      "command": "npm run npm:publish:next",
+      "runAtStart": false
+    },
+    "npm:publish:latest": {
+      "name": "npm:publish:latest",
+      "command": "npm run npm:publish:latest",
+      "runAtStart": false
+    },
+    "info": {
+      "name": "info",
+      "command": "npm run info",
+      "runAtStart": false
+    },
+    "sourcemap:visualize": {
+      "name": "sourcemap:visualize",
+      "command": "npm run sourcemap:visualize",
+      "runAtStart": false
+    },
+    "server": {
+      "name": "server",
+      "command": "npm run server",
+      "runAtStart": false
+    }
+  }
+}
